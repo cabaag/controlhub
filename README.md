@@ -42,5 +42,6 @@ function fibonnaci(n) {
 
 I created a recursive algorithm to represent the sequence.
 This way we only have to write once and iterate over the entire sequence until we reach the final value, the internal logic is the same in every iteration but the last.
+I'm not using variables to keep the actual state because with the recursive mode there's not need of them, we "keep the state" with the recursion
 
 **You can try this API from the next URL http://localhost:3000/api/v1/fibonacci?iterations={10} **
